@@ -1,0 +1,78 @@
+
+
+.logoImg {
+    height: 100px;
+    width: 200px;
+}
+
+.link{
+    color: goldenrod;
+}
+
+ul li a :hover {
+    color: rgb(255, 132, 0);
+}
+
+.myCard {
+    height: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myCard1{
+    height: 450px!important;
+}
+
+.myCardImg {
+    height: 300px;
+}
+
+.myCardImg1{
+    height: 280px!important;
+}
+
+.myBtn{
+    color: gold;
+}
+
+.header {
+    margin-top: 180px!important;
+    margin-bottom: 50px;
+}
+
+.register{
+    margin-top: 200px!important;
+    margin-bottom: 50px;
+}
+
+
+/* .header1{
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+} */
+
+.alert_class{
+    margin-top: 180px!important;
+}
+
+.myCardDet{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.detText{
+    line-height: 1.6;
+    letter-spacing: 2;
+    font-size: large;
+}
+
+.myBtnDet{
+    padding: 0 30px;
+    color: gold;
+} 
+
+.detTitle{ 
+    color: rgb(219, 161, 14);
+}
+
+.myForm{
+    margin-top: 200px;
+}
