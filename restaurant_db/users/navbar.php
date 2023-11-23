@@ -33,22 +33,22 @@
 
                         $navbar .= (isset($_SESSION["user"]) || isset($_SESSION["adm"])) ?
                         "<li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='update.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/update.php'>
                                 <h4 class='link'>Update</h4>
                             </a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='logout.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/logout.php'>
                                 <h4 class='link'>Log out</h4>
                             </a>
                         </li>":
                         "<li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='register.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/register.php'>
                                 <h4 class='link'>Register</h4>
                             </a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='login.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/login.php'>
                                 <h4 class='link'>Log in</h4>
                             </a>
                         </li>";

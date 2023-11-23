@@ -26,12 +26,12 @@
                             </a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='product_dashboard.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/product_dashboard.php'>
                                 <h4 class='link'>Product Dashboard</h4>
                             </a>
                         </li>
                         <li class='nav-item'>
-                        <a class='nav-link' aria-current='page' href='create.php'>
+                        <a class='nav-link' aria-current='page' href='/restaurant_db/create.php'>
                             <h4 class='link'>Create</h4>
                         </a>
                     </li>";

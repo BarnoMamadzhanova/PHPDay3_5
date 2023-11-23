@@ -21,17 +21,17 @@
                     if(isset($_SESSION["adm"])){
                         $navbar .= "
                         <li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='users/dashboard.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/users/dashboard.php'>
                                 <h4 class='link'>User Dashboard</h4>
                             </a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='product/product_dashboard.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/product/product_dashboard.php'>
                                 <h4 class='link'>Product Dashboard</h4>
                             </a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' aria-current='page' href='product/create.php'>
+                            <a class='nav-link' aria-current='page' href='/restaurant_db/product/create.php'>
                                 <h4 class='link'>Create</h4>
                             </a>
                         </li>";
@@ -40,22 +40,22 @@
 
                     $navbar .= (isset($_SESSION["user"]) || isset($_SESSION["adm"])) ?
                     "<li class='nav-item'>
-                        <a class='nav-link' aria-current='page' href='users/update.php'>
+                        <a class='nav-link' aria-current='page' href='/restaurant_db/users/update.php'>
                             <h4 class='link'>Update</h4>
                         </a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' aria-current='page' href='users/logout.php'>
+                        <a class='nav-link' aria-current='page' href='/restaurant_db/users/logout.php'>
                             <h4 class='link'>Log out</h4>
                         </a>
                     </li>":
                     "<li class='nav-item'>
-                        <a class='nav-link' aria-current='page' href='users/register.php'>
+                        <a class='nav-link' aria-current='page' href='/restaurant_db/users/register.php'>
                             <h4 class='link'>Register</h4>
                         </a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' aria-current='page' href='users/login.php'>
+                        <a class='nav-link' aria-current='page' href='/restaurant_db/users/login.php'>
                             <h4 class='link'>Log in</h4>
                         </a>
                     </li>";
